@@ -32,3 +32,14 @@ function App() {
 }
 
 export default App;
+const [user, setUser] = useState(localStorage.getItem("user"));
+const [expenses, setExpenses] = useState(
+  JSON.parse(localStorage.getItem("expenses") || "[]")
+);
+
+function handleAddExpense(exp) {
+  setExpenses([...expenses, { ...exp, user }]);
+}
+
+const userExpenses = expenses.filter(e => e.user === user);
+

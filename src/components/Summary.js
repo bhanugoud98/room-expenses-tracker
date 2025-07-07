@@ -1,6 +1,6 @@
 import React from "react";
 
-const ROOM_RENT = 6000; // example rent, change as needed
+const ROOM_RENT = 8500; // updated rent for 3 members
 const USERS = ["ARAVIND", "MANOHAR", "MAHESH"];
 
 export default function Summary({ expenses }) {
