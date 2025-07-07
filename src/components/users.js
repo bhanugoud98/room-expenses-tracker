@@ -1,6 +1,6 @@
 // src/users.js
 export const USERS = [
-  { username: "aravind", password: "aravind9100" },
-  { username: "manohar", password: "manohar2233" },
-  { username: "mahesh", password: "mahesh9090" }
+  { username: "aravind", password: "aravind123" },
+  { username: "manohar", password: "manohar123" },
+  { username: "mahesh", password: "mahesh123" }
 ];
